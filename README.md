@@ -1,27 +1,84 @@
-### Credit_Card_Financial_Analysis
 
-### Power BI Dashboards
-1. **Customer Dashboard:**
-   - Displays data on customer demographics such as marital status, age groups, top states by revenue, and job types.
-   - Breaks down revenue by factors like education level and salary groups.
-   - Shows a quarterly comparison of revenue vs gender.
-![image](https://github.com/rohansattarapu18/Credit_Card_Financial_Analysis/assets/168495778/2ea23759-6df8-4ea0-873c-ed0fcdf813d8)
+# 💳 Credit Card Financial Analysis Dashboard
 
+An interactive and insightful **Power BI project** focused on analyzing credit card customer behavior and financial transactions. The dashboards visualize customer demographics, spending patterns, and revenue metrics — making it easier for stakeholders to understand trends and make data-driven decisions.
 
-2. **Transaction Dashboard:**
-   - Analyzes transaction data by expenditure type and by card categories (e.g., Blue, Silver, Gold, Platinum).
-   - Includes metrics like total transaction count, total revenue, and interest earned.
-   - Provides insights into customer acquisition costs and revenue by customer job type.
-  
-     ![image](https://github.com/rohansattarapu18/Credit_Card_Financial_Analysis/assets/168495778/4c37a734-05bb-4f9d-a097-ebf925f1c991)
+---
 
+### 📊 Project Features
 
-### SQL Queries
-- SQL queries are designed to extract necessary data from a SQL Server, which is then used to populate the dashboards in Power BI. The specific details of these queries weren't directly accessible, but they presumably include joins, aggregations, and filters to prepare the dataset for visualization.
+- 📂 **2 Comprehensive Power BI Dashboards**
+- 📌 Built using **SQL Server**, **DAX**, and **Power BI Desktop**
+- 📉 Covers both **Customer** and **Transaction** analytics
+- 📌 Ideal for business intelligence use cases in the finance sector
 
-### Analysis and DAX Commands
-- Utilized DAX (Data Analysis Expressions) in Power BI to create calculated columns, measures, and other complex aggregations necessary for the dashboards. This might include summing up transactions, calculating average revenues, and other financial metrics.
+---
 
-### Data and Metrics
-- The dashboards provide a comprehensive view of customer interactions and financial transactions, highlighting key metrics that could inform business decisions, such as targeting specific customer segments or adjusting service offerings based on transaction types.
+### 🧩 Dashboards Overview
 
+#### 🧍‍♂️ 1. Customer Dashboard
+
+- Visualizes **customer demographics** (e.g., marital status, job type, salary groups)
+- Highlights **revenue breakdowns** by age, education, and location
+- Shows **quarterly revenue comparison** by gender
+
+<p align="center">
+  <img src="https://github.com/rohansattarapu18/Credit_Card_Financial_Analysis/assets/168495778/2ea23759-6df8-4ea0-873c-ed0fcdf813d8" width="700"/>
+</p>
+
+---
+
+#### 💳 2. Transaction Dashboard
+
+- Tracks **total revenue, transaction counts, and interest earned**
+- Analyzes spending by **card type** (Blue, Silver, Gold, Platinum)
+- Breaks down **acquisition cost** and revenue by **job title**
+
+<p align="center">
+  <img src="https://github.com/rohansattarapu18/Credit_Card_Financial_Analysis/assets/168495778/4c37a734-05bb-4f9d-a097-ebf925f1c991" width="700"/>
+</p>
+
+---
+
+### 🛠️ Tools & Technologies
+
+- **Power BI Desktop**
+- **DAX (Data Analysis Expressions)**
+- **SQL Server** for backend data extraction
+- **Custom Measures** and Calculated Columns
+
+---
+
+### 🧮 SQL & DAX Logic
+
+- SQL queries are used to extract raw data from SQL Server databases — likely involving joins, filters, and aggregations.
+- DAX formulas enable the creation of dynamic metrics such as:
+  - Total Revenue
+  - Average Spend per Customer
+  - Interest Accumulated
+  - Revenue per Card Type / Job Role
+
+---
+
+### 📈 Business Insights Provided
+
+- Identify high-value customer segments by demographics and job roles
+- Monitor revenue contribution by different card categories
+- Track gender-based and time-based trends in spending behavior
+- Optimize marketing efforts and acquisition cost allocation
+
+---
+
+### 💻 How to Run Locally
+
+1. **Clone or download** the GitHub repo
+2. Open the `.pbix` file with **Power BI Desktop**
+   - File: `CreditCardDashboard.pbix`
+3. Refresh or re-link the data source if needed (SQL Server or CSV)
+4. Explore, filter, or customize visuals
+
+Download Power BI Desktop (free): https://powerbi.microsoft.com/desktop/
+
+---
+
+---

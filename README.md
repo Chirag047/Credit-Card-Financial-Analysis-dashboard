@@ -69,14 +69,6 @@ An interactive and insightful **Power BI project** focused on analyzing credit c
 
 ---
 
-### 💻 How to Run Locally
-
-1. **Clone or download** the GitHub repo
-2. Open the `.pbix` file with **Power BI Desktop**
-   - File: `CreditCardDashboard.pbix`
-3. Refresh or re-link the data source if needed (SQL Server or CSV)
-4. Explore, filter, or customize visuals
-
 Download Power BI Desktop (free): https://powerbi.microsoft.com/desktop/
 
 ---

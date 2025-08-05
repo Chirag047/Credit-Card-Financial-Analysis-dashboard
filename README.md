@@ -69,8 +69,4 @@ An interactive and insightful **Power BI project** focused on analyzing credit c
 
 ---
 
-Download Power BI Desktop (free): https://powerbi.microsoft.com/desktop/
 
----
-
----
